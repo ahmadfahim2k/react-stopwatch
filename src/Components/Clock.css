@@ -1,0 +1,12 @@
+.span {
+    transform: rotate(calc(30deg * var(--i)));
+}
+
+.b {
+    transform: rotate(calc(-30deg * var(--i)));
+}
+
+.animation {
+    transition: transform 1s linear;
+    transform: rotate(var(--sRotation));
+}
